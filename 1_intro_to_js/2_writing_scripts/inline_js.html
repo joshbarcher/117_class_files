@@ -5,10 +5,11 @@
         <title>Inline Code</title>
 
         <script>
-            //calculate the number of milliseconds since new years!
-            var newYears  = new Date(2020, 1, 1).getTime();
-            var now = new Date().getTime();
-            var milliseconds = now - newYears;
+            //calculate the number of milliseconds
+            //since new years!
+            let newYears  = new Date(2021, 1, 1).getTime();
+            let now = new Date().getTime();
+            let milliseconds = now - newYears;
         </script>
     </head>
     <body>
@@ -16,7 +17,7 @@
             since new years is: <span></span></p>
 
         <script>
-            var span = document.querySelector("span");
+            let span = document.querySelector("span");
             span.innerHTML = milliseconds;
         </script>
     </body>
