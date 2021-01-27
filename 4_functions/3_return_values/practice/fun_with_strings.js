@@ -1,6 +1,6 @@
 function capitalize(theString) {
     let updated = theString.toUpperCase();
-   return updated;
+    return updated;
 }
 
 function append(theString, newContent)
@@ -10,27 +10,27 @@ function append(theString, newContent)
 }
 
 function prepend(theString, newContent) {
-let updated = newContent + theString;
-return updated;
+    let updated = newContent + theString;
+    return updated;
 }
 
 function replace(theString)
 {
-            //replace vowels with special characters
-        theString = theString.replace("a", "@");
-        theString = theString.replace("A", "@");
+    //replace vowels with special characters
+    theString = theString.replaceAll("a", "@");
+    theString = theString.replaceAll("A", "@");
 
-        theString = theString.replace("e", "&");
-        theString = theString.replace("E", "&");
+    theString = theString.replaceAll("e", "&");
+    theString = theString.replaceAll("E", "&");
 
-    theString = theString.replace("i", "!");
-    theString = theString.replace("I", "!");
+    theString = theString.replaceAll("i", "!");
+    theString = theString.replaceAll("I", "!");
 
-    theString = theString.replace("o", "()");
-    theString = theString.replace("O", "()");
+    theString = theString.replaceAll("o", "()");
+    theString = theString.replaceAll("O", "()");
 
-    theString = theString.replace("u", "#");
-    theString = theString.replace("U", "#");
+    theString = theString.replaceAll("u", "#");
+    theString = theString.replaceAll("U", "#");
 
     return theString;
 }
