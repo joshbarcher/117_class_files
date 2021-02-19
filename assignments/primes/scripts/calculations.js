@@ -8,10 +8,16 @@ window.onload = function() {
 
 function analyzeNumberOnClick(event)
 {
+    //prevent the form from submitting
+    event.preventDefault();
 
+    //your code here...
 }
 
 function generatePrimesOnClick(event)
 {
+    //prevent the form from submitting
+    event.preventDefault();
 
+    //your code here...
 }
