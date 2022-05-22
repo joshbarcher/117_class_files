@@ -1,4 +1,3 @@
-
 //get access to our buttons
 let previous = document.getElementById("previous");
 let next = document.getElementById("next");
@@ -30,6 +29,10 @@ next.onclick = function(event) {
 //at the position within the index variable
 function display()
 {
+    //NOTE: Your code that displays a record on the page should
+    //only go here and not elsewhere
     console.log("Next index is " + index);
 }
 
+//NOTE: Your code that calculates and displays interesting
+//fact(s) should go here and not elsewhere
