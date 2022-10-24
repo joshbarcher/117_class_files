@@ -1,0 +1,21 @@
+#play-area {
+    width: 50%;
+    height: 400px;
+    border: 1px solid black;
+    overflow: scroll;
+    background-color: lightblue;
+    padding: 12px;
+}
+
+.dice {
+    width: 40px;
+    padding: 4px;
+}
+
+h1 {
+    margin: 14px 0 4px 0;
+}
+
+button {
+    margin-bottom: 10px;
+}
