@@ -1,5 +1,5 @@
 window.onload = function() {
-    let button = document.getElementById("submit");
+    let button = document.getElementById("send-data");
     button.onclick = validateForm;
 }
 
