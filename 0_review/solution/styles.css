@@ -1,0 +1,141 @@
+html {
+    background-image: url('pattern.jpg');
+    background-size: cover;
+}
+
+body {
+    font-family: 'Verdana', sans-serif;
+    margin: auto;
+    width: 1200px;
+    background-color: #e6f7ff;
+    padding: 15px;
+    border-left: 2px solid darkblue;
+    border-right: 2px solid darkblue;
+}
+
+h1 {
+    font-size: 60px;
+    background: linear-gradient(
+        100deg, 
+        rgb(17, 17, 175), 
+        rgb(74, 152, 162), 
+        rgb(30, 85, 39)
+    );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    border-bottom: 1px solid #477098;
+    padding-bottom: 6px;
+}
+
+header > p {
+    font-size: 2em;
+    color: #004080;
+}
+
+.information h2 {
+    color: #a7bed4;
+}
+
+.data h2 {
+    color: darkblue;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.information p {
+    color: #a7bed4; 
+}
+
+ul, ol {
+    color: #a7bed4; 
+    margin-bottom: 15px;
+}
+
+li {
+    line-height: 1.5;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #99c2ff; /* Light blue border */
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #cce0ff; /* Light blue background for table headers */
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #004080;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+section {
+    padding: 20px;
+    background-color: #004080;
+}
+
+.data {
+    background-color: white;
+    border: 1px solid darkblue;
+    color: darkblue;
+    border-radius: 6px;
+}
+
+#image-panel {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#image-panel img {
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid dark-blue;
+    margin: 8px;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "hd hd"
+        "el pa"
+        "td mo"
+        "im im"
+        "tb fo";
+    grid-gap: 20px;
+}
+
+#page-title { grid-area: hd }
+#elements { grid-area: el }
+#path { grid-area: pa }
+#todo { grid-area: td }
+#more-todo { grid-area: mo }
+#image-panel { grid-area: im }
+#tables { grid-area: tb }
+#forms { grid-area: fo }
